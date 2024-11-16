@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "build": "npm i"
+    "start": "node app.js",
+    "dev": "npx nodemon app.js",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
